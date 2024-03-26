@@ -24,8 +24,10 @@ outputs:
     description: Number of low vulnerabilities detected.
   informational:
     description: Number of informational vulnerabilities detected.
-  unknown:
-    description: Number of unknown severity vulnerabilities detected.
+  undefined:
+    description: Number of undefined severity vulnerabilities detected.
+  ignored:
+    description: Number of ignored vulnerabilities detected.
   total:
     description: Total number of vulnerabilities detected.
   findingsDetails:
